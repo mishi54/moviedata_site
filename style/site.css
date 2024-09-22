@@ -1,0 +1,163 @@
+html{
+    font-size: 62.5%;
+    background-color: rgb(20, 19, 19);
+    
+}
+*{
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+margin: 0;
+padding: 0;
+/* color: aliceblue; */
+}
+p,li,a{
+    font-size: 1.9rem;
+}
+.credentials{
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+   width: 100%;
+   /* background-color: rgb(60, 59, 59); */
+   background-color:#2C3E50;
+   /* #333333; */
+   padding: 1rem;
+   color: azure;
+
+}
+.auth ul {
+    display: flex; 
+    justify-content: flex-end;
+    gap: 4rem; 
+}
+
+.auth li {
+    list-style: none; 
+
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+    background-color:  rgb(169, 28, 28);;
+     /* rgb(169, 28, 28); */
+    margin: 0 auto;
+    padding: 1.6rem;
+    border-radius: 1rem;
+    color: aliceblue;
+    border: 1px solid rgb(22, 22, 22);
+
+
+}
+.menu li{
+    list-style: none;
+}
+.menu-link ul {
+    display: flex; 
+    justify-content: flex-end;
+    gap: 4rem; 
+}
+.menu-link li{
+    list-style: none;
+}
+a{
+    color: white; 
+    text-decoration: none; 
+}
+  .menu-link a:hover {
+    color: lightblue;
+  }
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    background-color: #2C3E50;
+    margin: 3.9rem auto;
+    padding: 1.9rem;
+    color: aliceblue;
+    border: 1px solid rgb(22, 22, 22);
+    bottom: 0;
+}
+
+li{
+    list-style: none;
+}
+h1,h2
+{
+    font-size: 2rem;
+}
+.info
+{
+    padding-top: 2rem;
+    
+}
+.lis{
+    padding-top: 1.5rem;
+}
+.formx
+{
+    padding: 1.5rem;
+    width: 80%;
+    border-radius: 1rem;
+
+}
+.lis a:hover {
+    color: lightblue;
+  }
+  h3{
+    font-size: 3rem;
+    color: white;
+  }
+  .error-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  #error-text {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  #error-text figure {
+    margin: 0;
+  }
+  
+  #error-text img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+  }
+  
+  .text-center {
+    margin-top: 1rem;
+  }
+  
+  .p-a {
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: #333;
+  }
+  
+  .p-b {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  .btn {
+    padding: 1rem 2rem;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-top: 1px;
+  }
+  
+  .btn:hover {
+    background-color: #e84118;
+  }
+  

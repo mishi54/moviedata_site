@@ -1,0 +1,30 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.movie-image {
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.explore-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #7B241C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.explore-button:hover {
+  background-color: #0056b3;
+}
